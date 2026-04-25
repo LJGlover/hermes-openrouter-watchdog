@@ -141,8 +141,6 @@ Contributions welcome! Ideas for improvement:
 
 This plugin was created for the Hermes Dashboard Hackathon - Plugin Track.
 
-**Prize**: $600 in OpenRouter credits for the best plugin!
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
