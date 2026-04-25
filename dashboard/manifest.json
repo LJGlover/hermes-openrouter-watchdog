@@ -1,0 +1,14 @@
+{
+  "name": "openrouter-model-watchdog",
+  "label": "Model Watchdog",
+  "description": "Monitor OpenRouter free model availability",
+  "icon": "BarChart3",
+  "version": "1.0.0",
+  "tab": {
+    "path": "/openrouter-model-watchdog",
+    "position": "after:skills"
+  },
+  "entry": "dist/index.js",
+  "css": "dist/style.css",
+  "api": "plugin_api.py"
+}

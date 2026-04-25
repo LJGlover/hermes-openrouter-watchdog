@@ -1,0 +1,335 @@
+{
+  "models": [
+    {
+      "id": "inclusionai/ling-2.6-1t:free",
+      "name": "inclusionAI: Ling-2.6-1T (free)",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1776948238,
+      "last_checked": "2026-04-25T20:10:35.417241"
+    },
+    {
+      "id": "tencent/hy3-preview:free",
+      "name": "Tencent: Hy3 preview (free)",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1776878150,
+      "last_checked": "2026-04-25T20:10:35.417341"
+    },
+    {
+      "id": "inclusionai/ling-2.6-flash:free",
+      "name": "inclusionAI: Ling-2.6-flash (free)",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1776795886,
+      "last_checked": "2026-04-25T20:10:35.417371"
+    },
+    {
+      "id": "baidu/qianfan-ocr-fast:free",
+      "name": "Baidu: Qianfan-OCR-Fast (free)",
+      "context_length": 65536,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1776707472,
+      "last_checked": "2026-04-25T20:10:35.417774"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it:free",
+      "name": "Google: Gemma 4 26B A4B  (free)",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1775227989,
+      "last_checked": "2026-04-25T20:10:35.417789"
+    },
+    {
+      "id": "google/gemma-4-31b-it:free",
+      "name": "Google: Gemma 4 31B (free)",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1775148486,
+      "last_checked": "2026-04-25T20:10:35.417794"
+    },
+    {
+      "id": "google/lyria-3-pro-preview",
+      "name": "Google: Lyria 3 Pro Preview",
+      "context_length": 1048576,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1774907286,
+      "last_checked": "2026-04-25T20:10:35.417805"
+    },
+    {
+      "id": "google/lyria-3-clip-preview",
+      "name": "Google: Lyria 3 Clip Preview",
+      "context_length": 1048576,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1774907255,
+      "last_checked": "2026-04-25T20:10:35.417809"
+    },
+    {
+      "id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "name": "NVIDIA: Nemotron 3 Super (free)",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1773245239,
+      "last_checked": "2026-04-25T20:10:35.419162"
+    },
+    {
+      "id": "minimax/minimax-m2.5:free",
+      "name": "MiniMax: MiniMax M2.5 (free)",
+      "context_length": 196608,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1770908502,
+      "last_checked": "2026-04-25T20:10:35.419204"
+    },
+    {
+      "id": "openrouter/free",
+      "name": "Free Models Router",
+      "context_length": 200000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1769917427,
+      "last_checked": "2026-04-25T20:10:35.419212"
+    },
+    {
+      "id": "liquid/lfm-2.5-1.2b-thinking:free",
+      "name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+      "context_length": 32768,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1768927527,
+      "last_checked": "2026-04-25T20:10:35.419221"
+    },
+    {
+      "id": "liquid/lfm-2.5-1.2b-instruct:free",
+      "name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
+      "context_length": 32768,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1768927521,
+      "last_checked": "2026-04-25T20:10:35.419224"
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
+      "context_length": 256000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1765731275,
+      "last_checked": "2026-04-25T20:10:35.419238"
+    },
+    {
+      "id": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
+      "context_length": 128000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1761675565,
+      "last_checked": "2026-04-25T20:10:35.419271"
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct:free",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1757612213,
+      "last_checked": "2026-04-25T20:10:35.419750"
+    },
+    {
+      "id": "nvidia/nemotron-nano-9b-v2:free",
+      "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
+      "context_length": 128000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1757106807,
+      "last_checked": "2026-04-25T20:10:35.419768"
+    },
+    {
+      "id": "openai/gpt-oss-120b:free",
+      "name": "OpenAI: gpt-oss-120b (free)",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1754414231,
+      "last_checked": "2026-04-25T20:10:35.419786"
+    },
+    {
+      "id": "openai/gpt-oss-20b:free",
+      "name": "OpenAI: gpt-oss-20b (free)",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1754414229,
+      "last_checked": "2026-04-25T20:10:35.419791"
+    },
+    {
+      "id": "z-ai/glm-4.5-air:free",
+      "name": "Z.ai: GLM 4.5 Air (free)",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1753471258,
+      "last_checked": "2026-04-25T20:10:35.419800"
+    },
+    {
+      "id": "qwen/qwen3-coder:free",
+      "name": "Qwen: Qwen3 Coder 480B A35B (free)",
+      "context_length": 262000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1753230546,
+      "last_checked": "2026-04-25T20:10:35.419806"
+    },
+    {
+      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "name": "Venice: Uncensored (free)",
+      "context_length": 32768,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1752094966,
+      "last_checked": "2026-04-25T20:10:35.419816"
+    },
+    {
+      "id": "google/gemma-3n-e2b-it:free",
+      "name": "Google: Gemma 3n 2B (free)",
+      "context_length": 8192,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1752074904,
+      "last_checked": "2026-04-25T20:10:35.419820"
+    },
+    {
+      "id": "google/gemma-3n-e4b-it:free",
+      "name": "Google: Gemma 3n 4B (free)",
+      "context_length": 8192,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1747776824,
+      "last_checked": "2026-04-25T20:10:35.419837"
+    },
+    {
+      "id": "google/gemma-3-4b-it:free",
+      "name": "Google: Gemma 3 4B (free)",
+      "context_length": 32768,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1741905510,
+      "last_checked": "2026-04-25T20:10:35.419979"
+    },
+    {
+      "id": "google/gemma-3-12b-it:free",
+      "name": "Google: Gemma 3 12B (free)",
+      "context_length": 32768,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1741902625,
+      "last_checked": "2026-04-25T20:10:35.420001"
+    },
+    {
+      "id": "google/gemma-3-27b-it:free",
+      "name": "Google: Gemma 3 27B (free)",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1741756359,
+      "last_checked": "2026-04-25T20:10:35.420018"
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct:free",
+      "name": "Meta: Llama 3.3 70B Instruct (free)",
+      "context_length": 65536,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1733506137,
+      "last_checked": "2026-04-25T20:10:35.420076"
+    },
+    {
+      "id": "meta-llama/llama-3.2-3b-instruct:free",
+      "name": "Meta: Llama 3.2 3B Instruct (free)",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1727222400,
+      "last_checked": "2026-04-25T20:10:35.420099"
+    },
+    {
+      "id": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "name": "Nous: Hermes 3 405B Instruct (free)",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "created": 1723766400,
+      "last_checked": "2026-04-25T20:10:35.420108"
+    }
+  ],
+  "timestamp": "2026-04-25T20:10:35.420156"
+}

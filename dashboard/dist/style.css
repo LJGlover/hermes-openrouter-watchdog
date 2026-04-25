@@ -1,0 +1,305 @@
+/* OpenRouter Model Watchdog Plugin Styles */
+
+.orw-plugin {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.orw-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--border);
+}
+
+.orw-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.orw-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.orw-btn {
+    padding: 10px 20px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--background);
+    color: var(--foreground);
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.orw-btn:hover:not(:disabled) {
+    border-color: var(--primary);
+    background: var(--muted);
+}
+
+.orw-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.orw-btn-primary {
+    background: var(--primary);
+    color: var(--primary-foreground);
+    border-color: var(--primary);
+}
+
+.orw-btn-primary:hover:not(:disabled) {
+    opacity: 0.9;
+}
+
+.orw-status {
+    margin-bottom: 20px;
+}
+
+.orw-status-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.orw-status-ok {
+    background: #10b981;
+    color: white;
+}
+
+.orw-status-warning {
+    background: #f59e0b;
+    color: white;
+}
+
+.orw-status-alert {
+    background: #ef4444;
+    color: white;
+}
+
+.orw-timestamp {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: var(--muted-foreground);
+}
+
+.orw-loading, .orw-error, .orw-empty {
+    padding: 20px;
+    text-align: center;
+    color: var(--muted-foreground);
+}
+
+.orw-error {
+    color: #ef4444;
+}
+
+.orw-stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.orw-stat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.orw-stat-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.orw-stat-label {
+    font-size: 0.8rem;
+    color: var(--muted-foreground);
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.orw-changes {
+    margin-bottom: 30px;
+}
+
+.orw-change-section {
+    padding: 15px;
+    border-radius: var(--radius);
+    margin-bottom: 15px;
+}
+
+.orw-added {
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid #10b981;
+}
+
+.orw-removed {
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid #ef4444;
+}
+
+.orw-change-section h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.orw-change-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.orw-change-item:last-child {
+    border-bottom: none;
+}
+
+.orw-model-id {
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+.orw-context {
+    font-size: 0.8rem;
+    color: var(--muted-foreground);
+}
+
+.orw-models {
+    margin-bottom: 30px;
+}
+
+.orw-models h3, .orw-history h3 {
+    margin-bottom: 15px;
+}
+
+.orw-model-list {
+    display: grid;
+    gap: 10px;
+}
+
+.orw-model-card {
+    padding: 15px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.orw-model-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.orw-model-name {
+    font-weight: 600;
+}
+
+.orw-model-details {
+    display: flex;
+    gap: 15px;
+    font-size: 0.85rem;
+    color: var(--muted-foreground);
+}
+
+.orw-history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.orw-history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.orw-history-date {
+    font-size: 0.85rem;
+    color: var(--muted-foreground);
+}
+
+.orw-history-changes {
+    display: flex;
+    gap: 10px;
+}
+
+.orw-history-added {
+    color: #10b981;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.orw-history-removed {
+    color: #ef4444;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.orw-history-stable {
+    color: var(--muted-foreground);
+    font-size: 0.85rem;
+}
+
+.orw-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    z-index: 9999;
+    animation: slideIn 0.3s ease;
+}
+
+.orw-notification-success {
+    background: #10b981;
+}
+
+.orw-notification-error {
+    background: #ef4444;
+}
+
+.orw-notification-info {
+    background: #3b82f6;
+}
+
+.orw-notification.fade-out {
+    animation: fadeOut 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
