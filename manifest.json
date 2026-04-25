@@ -1,0 +1,14 @@
+{
+  "name": "openrouter-model-watchdog",
+  "version": "1.0.0",
+  "label": "Model Watchdog",
+  "description": "Monitor OpenRouter free models availability, status changes, and deprecation alerts. Track free model health and get notified of changes.",
+  "author": "Hermes Agent Contributor",
+  "icon": "🐕",
+  "tab": true,
+  "tabLabel": "Model Watchdog",
+  "permissions": ["network", "storage"],
+  "backend": "backend.py",
+  "frontend": "frontend.js",
+  "css": "styles.css"
+}
